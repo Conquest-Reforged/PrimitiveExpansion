@@ -1,0 +1,11 @@
+{
+    "type": "content", 
+    "modid": "primitiveexpansion",  
+    "name": "Primitive Expansion",
+    "authors": [ "CreativeRealms" ],
+    "description": "Extends survival gameplay by adding intermediate tech.",
+    "side": "client",
+    "version": "1.0.0",
+    "textureSize" : 32,
+    "website": "https://discord.gg/u52x8pGkXq"
+}

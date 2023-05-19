@@ -1,0 +1,103 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"arrowshaft": "item/tool/material/carvedwood"
+	},
+	"elements": [
+		{
+			"name": "Stick",
+			"from": [ 1.0, 0.0, 7.7 ],
+			"to": [ 17.0, 1.0, 8.7 ],
+			"rotationOrigin": [ 8.0, 0.5, 8.0 ],
+			"faces": {
+				"north": { "texture": "#arrowshaft", "uv": [ 0.0, 8.0, 16.0, 9.0 ] },
+				"east": { "texture": "#arrowshaft", "uv": [ 8.0, 7.0, 9.0, 8.0 ] },
+				"south": { "texture": "#arrowshaft", "uv": [ 0.0, 0.0, 16.0, 1.0 ] },
+				"up": { "texture": "#arrowshaft", "uv": [ 0.0, 4.5, 16.0, 5.5 ] },
+				"down": { "texture": "#arrowshaft", "uv": [ 0.0, 7.0, 16.0, 8.0 ] }
+			},
+			"children": [
+				{
+					"name": "Cube15",
+					"from": [ -3.0, 0.0, 0.0 ],
+					"to": [ 0.0, 1.0, 1.0 ],
+					"rotationOrigin": [ -3.0, 0.0, 0.0 ],
+					"faces": {
+						"north": { "texture": "#arrowshaft", "uv": [ 6.5, 5.0, 9.5, 6.0 ] },
+						"south": { "texture": "#arrowshaft", "uv": [ 10.5, 0.0, 13.5, 1.0 ] },
+						"west": { "texture": "#arrowshaft", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+						"up": { "texture": "#arrowshaft", "uv": [ 10.0, 0.0, 13.0, 1.0 ] },
+						"down": { "texture": "#arrowshaft", "uv": [ 8.0, 4.0, 11.0, 5.0 ] }
+					}
+				}
+			]
+		},
+		{
+			"name": "Stick2",
+			"from": [ 1.0, 1.0, 7.7 ],
+			"to": [ 17.0, 2.0, 8.7 ],
+			"rotationOrigin": [ 8.0, 1.5, 8.0 ],
+			"rotationX": -67.5,
+			"rotationY": -22.5,
+			"rotationZ": -22.5,
+			"faces": {
+				"north": { "texture": "#arrowshaft", "uv": [ 0.0, 8.0, 16.0, 9.0 ] },
+				"east": { "texture": "#arrowshaft", "uv": [ 8.0, 7.0, 9.0, 8.0 ] },
+				"south": { "texture": "#arrowshaft", "uv": [ 0.0, 0.0, 16.0, 1.0 ] },
+				"up": { "texture": "#arrowshaft", "uv": [ 0.0, 4.5, 16.0, 5.5 ] },
+				"down": { "texture": "#arrowshaft", "uv": [ 0.0, 7.0, 16.0, 8.0 ] }
+			},
+			"children": [
+				{
+					"name": "Cube16",
+					"from": [ -3.0, 0.0, 0.0 ],
+					"to": [ 0.0, 1.0, 1.0 ],
+					"rotationOrigin": [ -3.0, 0.0, 0.0 ],
+					"faces": {
+						"north": { "texture": "#arrowshaft", "uv": [ 6.5, 5.0, 9.5, 6.0 ] },
+						"south": { "texture": "#arrowshaft", "uv": [ 10.5, 0.0, 13.5, 1.0 ] },
+						"west": { "texture": "#arrowshaft", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+						"up": { "texture": "#arrowshaft", "uv": [ 10.0, 0.0, 13.0, 1.0 ] },
+						"down": { "texture": "#arrowshaft", "uv": [ 8.0, 4.0, 11.0, 5.0 ] }
+					}
+				}
+			]
+		},
+		{
+			"name": "Stick3",
+			"from": [ 2.0, 1.0, 4.7 ],
+			"to": [ 18.0, 2.0, 5.7 ],
+			"rotationOrigin": [ 9.0, 1.5, 5.0 ],
+			"rotationX": -112.5,
+			"rotationZ": -157.5,
+			"faces": {
+				"north": { "texture": "#arrowshaft", "uv": [ 0.0, 8.0, 16.0, 9.0 ] },
+				"east": { "texture": "#arrowshaft", "uv": [ 8.0, 7.0, 9.0, 8.0 ] },
+				"south": { "texture": "#arrowshaft", "uv": [ 0.0, 0.0, 16.0, 1.0 ] },
+				"up": { "texture": "#arrowshaft", "uv": [ 0.0, 4.5, 16.0, 5.5 ] },
+				"down": { "texture": "#arrowshaft", "uv": [ 0.0, 7.0, 16.0, 8.0 ] }
+			},
+			"children": [
+				{
+					"name": "Cube17",
+					"from": [ -3.0, 0.0, 0.0 ],
+					"to": [ 0.0, 1.0, 1.0 ],
+					"rotationOrigin": [ -3.0, 0.0, 0.0 ],
+					"faces": {
+						"north": { "texture": "#arrowshaft", "uv": [ 6.5, 5.0, 9.5, 6.0 ] },
+						"south": { "texture": "#arrowshaft", "uv": [ 10.5, 0.0, 13.5, 1.0 ] },
+						"west": { "texture": "#arrowshaft", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+						"up": { "texture": "#arrowshaft", "uv": [ 10.0, 0.0, 13.0, 1.0 ] },
+						"down": { "texture": "#arrowshaft", "uv": [ 8.0, 4.0, 11.0, 5.0 ] }
+					}
+				}
+			]
+		}
+	]}

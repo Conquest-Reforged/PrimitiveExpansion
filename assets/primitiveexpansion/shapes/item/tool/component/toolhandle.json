@@ -1,0 +1,78 @@
+{
+	"editor": {
+		"allAngles": false,
+		"singleTexture": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textures": {
+		"toolhandle": "item/tool/material/carvedwood"
+	},
+	"elements": [
+		{
+			"name": "origin",
+			"from": [ 11.0, 0.5, 7.7 ],
+			"to": [ 11.0, 0.5, 7.7 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+				"north": { "texture": "#toolhandle", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"east": { "texture": "#toolhandle", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"south": { "texture": "#toolhandle", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"west": { "texture": "#toolhandle", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"up": { "texture": "#toolhandle", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"down": { "texture": "#toolhandle", "uv": [ 0.0, 0.0, 0.5, 0.5 ] }
+			},
+			"children": [
+				{
+					"name": "toolhandle 2",
+					"from": [ -8.0, -0.5, -0.5 ],
+					"to": [ 8.0, 1.0, 0.5 ],
+					"rotationOrigin": [ 0.0, 0.3, 0.0 ],
+					"faces": {
+						"north": { "texture": "#toolhandle", "uv": [ 0.0, 5.5, 16.0, 7.0 ] },
+						"east": { "texture": "#toolhandle", "uv": [ 0.5, 0.5, 1.5, 2.0 ] },
+						"south": { "texture": "#toolhandle", "uv": [ 0.0, 10.5, 16.0, 12.0 ] },
+						"up": { "texture": "#toolhandle", "uv": [ 0.0, 4.5, 16.0, 5.5 ] },
+						"down": { "texture": "#toolhandle", "uv": [ 0.0, 5.0, 16.0, 6.0 ] }
+					}
+				},
+				{
+					"name": "toolhandle 3",
+					"from": [ -8.5, -0.5, 0.5 ],
+					"to": [ 7.5, 1.0, 1.0 ],
+					"rotationOrigin": [ -10.0, -8.0, 1.0 ],
+					"faces": {
+						"east": { "texture": "#toolhandle", "uv": [ 0.5, 0.5, 1.0, 2.0 ] },
+						"south": { "texture": "#toolhandle", "uv": [ 0.0, 10.5, 16.0, 12.0 ] },
+						"up": { "texture": "#toolhandle", "uv": [ 0.0, 8.5, 16.0, 9.0 ] },
+						"down": { "texture": "#toolhandle", "uv": [ 0.0, 5.0, 16.0, 5.5 ] }
+					}
+				},
+				{
+					"name": "toolhandle 11",
+					"from": [ -14.0, -0.5, -0.5 ],
+					"to": [ -8.0, 1.0, 0.5 ],
+					"rotationOrigin": [ -11.0, 0.3, 0.0 ],
+					"faces": {
+						"north": { "texture": "#toolhandle", "uv": [ 0.0, 5.5, 6.0, 7.0 ] },
+						"south": { "texture": "#toolhandle", "uv": [ 0.0, 10.5, 6.0, 12.0 ] },
+						"west": { "texture": "#toolhandle", "uv": [ 14.0, 10.0, 15.0, 11.5 ] },
+						"up": { "texture": "#toolhandle", "uv": [ 0.0, 4.5, 6.0, 5.5 ] },
+						"down": { "texture": "#toolhandle", "uv": [ 0.0, 5.0, 6.0, 6.0 ] }
+					}
+				},
+				{
+					"name": "toolhandle 12",
+					"from": [ -12.5, -0.5, 0.5 ],
+					"to": [ -8.5, 1.0, 1.0 ],
+					"rotationOrigin": [ -14.0, -8.0, 1.0 ],
+					"faces": {
+						"south": { "texture": "#toolhandle", "uv": [ 0.0, 10.5, 4.0, 12.0 ] },
+						"west": { "texture": "#toolhandle", "uv": [ 14.0, 10.0, 14.5, 11.5 ] },
+						"up": { "texture": "#toolhandle", "uv": [ 0.0, 8.5, 4.0, 9.0 ] },
+						"down": { "texture": "#toolhandle", "uv": [ 0.0, 5.0, 4.0, 5.5 ] }
+					}
+				}
+			]
+		}
+	]}

@@ -1,0 +1,22 @@
+[
+	{
+		ingredientPattern: "K,S",
+		ingredients: {
+			"K": { type: "item", code: "game:knife-*", isTool: true, toolDurabilityCost: 10 },
+			"S": { type: "item", code: "game:stick" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "toolhandle", quantity: 1  }
+	},
+	{
+		ingredientPattern: "K,S",
+		ingredients: {
+			"K": { type: "item", code: "game:knifeblade-*", isTool: true, toolDurabilityCost: 10 },
+			"S": { type: "item", code: "game:stick" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "toolhandle", quantity: 1  }
+	}
+]

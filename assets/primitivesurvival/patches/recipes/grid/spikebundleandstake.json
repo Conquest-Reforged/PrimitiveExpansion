@@ -1,0 +1,11 @@
+[
+  {
+    "op": "replace",
+    "path": "/2/ingredients/H",
+    "value": {
+      "type": "item",
+      "code": "primitiveexpansion:toolhandle"
+    },
+    "file": "primitivesurvival:recipes/grid/spikebundleandstake.json"
+  }
+]

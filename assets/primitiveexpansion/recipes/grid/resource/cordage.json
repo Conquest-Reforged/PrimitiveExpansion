@@ -1,0 +1,17 @@
+{
+    "ingredientPattern": "G",
+    "ingredients": {
+		"G": {
+            "type": "item",
+            "code": "game:drygrass",
+			"quantity": 5
+        }
+    },
+    "width": 1,
+    "height": 1,
+	"shapeless": true,
+    "output": {
+        "type": "item",
+        "code": "cordage"
+    }
+}

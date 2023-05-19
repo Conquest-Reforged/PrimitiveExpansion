@@ -1,0 +1,25 @@
+{
+    "ingredientPattern": "C,G,R",
+    "ingredients": {
+        "C": {
+            "type": "item",
+            "code": "game:charcoal"
+        },
+		"G": {
+            "type": "item",
+            "code": "game:drygrass"
+        },
+        "R": {
+            "type": "item",
+            "code": "game:resin"
+        }
+    },
+    "width": 1,
+    "height": 3,
+	"shapeless": true,
+    "output": {
+        "type": "item",
+        "code": "pinepitch",
+		"quantity": 10
+    }
+}

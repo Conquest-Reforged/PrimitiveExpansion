@@ -1,0 +1,139 @@
+[
+    {
+        "file": "itemtypes/toolhead/knifeblade.json",
+        "op": "add",
+        "path": "/class",
+        "value": "ItemKnife"
+    },
+    {
+        "file": "itemtypes/toolhead/knifeblade.json",
+        "op": "add",
+        "path": "/damagedby",
+        "value": [ "blockbreaking", "attacking" ]
+    },
+    {
+        "file": "itemtypes/toolhead/knifeblade.json",
+        "op": "add",
+        "path": "/tool",
+        "value": "knife"
+    },
+    {
+        "file": "itemtypes/toolhead/knifeblade.json",
+        "op": "add",
+        "path": "/heldTpHitAnimation",
+        "value": "breaktool"
+    },
+    {
+        "file": "itemtypes/toolhead/knifeblade.json",
+        "op": "replace",
+        "path": "/heldTpUseAnimation",
+        "value": "knap"
+    },
+    {
+        "file": "itemtypes/toolhead/knifeblade.json",
+        "op": "add",
+        "path": "/durabilitybytype",
+        "value": {
+
+            "knifeblade-chert": 21,
+            "knifeblade-granite": 21,
+            "knifeblade-andesite": 21,
+            "knifeblade-basalt": 21,
+            "knifeblade-peridotite": 21,
+            "knifeblade-flint": 30,
+            "knifeblade-obsidian": 36,
+
+            "knifeblade-gold": 105,
+            "knifeblade-silver": 120,
+            "knifeblade-copper": 210,
+            "knifeblade-tinbronze": 315,
+            "knifeblade-bismuthbronze": 350,
+            "knifeblade-blackbronze": 385,
+            "knifeblade-iron": 630,
+            "knifeblade-meteoriciron": 850,
+            "knifeblade-steel": 1575
+        }
+    },
+    {
+        "file": "itemtypes/toolhead/knifeblade.json",
+        "op": "add",
+        "path": "/miningspeedbytype",
+        "value": {
+
+            "knifeblade-chert": {
+                "plant": 0.25
+            },
+            "knifeblade-granite": {
+                "plant": 0.25
+            },
+            "knifeblade-peridotite": {
+                "plant": 0.25
+            },
+            "knifeblade-andesite": {
+                "plant": 0.25
+            },
+            "knifeblade-basalt": {
+                "plant": 0.3
+            },
+            "knifeblade-obsidian": {
+                "plant": 0.45
+            },
+            "knifeblade-flint": {
+                "plant": 0.35
+            },
+            "knifeblade-copper": {
+                "plant": 0.5
+            },
+            "knifeblade-silver": {
+                "plant": 0.55
+            },
+            "knifeblade-gold": {
+                "plant": 0.55
+            },
+            "knifeblade-bismuthbronze": {
+                "plant": 0.6
+            },
+            "knifeblade-tinbronze": {
+                "plant": 0.65
+            },
+            "knifeblade-blackbronze": {
+                "plant": 0.7
+            },
+            "knifeblade-iron": {
+                "plant": 0.75
+            },
+            "knifeblade-meteoriciron": {
+                "plant": 0.85
+            },
+            "knifeblade-steel": {
+                "plant": 0.95
+            }
+        }
+    },
+    {
+        "file": "itemtypes/toolhead/knifeblade.json",
+        "op": "add",
+        "path": "/attackpowerbytype",
+        "value": {
+
+            "knifeblade-chert": 0.10,
+            "knifeblade-granite": 0.10,
+            "knifeblade-peridotite": 0.10,
+            "knifeblade-andesite": 0.10,
+            "knifeblade-basalt": 0.19,
+            "knifeblade-obsidian": 0.19,
+
+            "knifeblade-flint": 0.12,
+            "knifeblade-copper": 0.31,
+            "knifeblade-bismuthbronze": 0.25,
+            "knifeblade-tinbronze": 0.31,
+            "knifeblade-gold": 0.31,
+            "knifeblade-silver": 0.31,
+            "knifeblade-blackbronze": 0.37,
+            "knifeblade-iron": 0.44,
+            "knifeblade-meteoriciron": 0.46,
+            "knifeblade-steel": 0.5
+        }
+    }
+
+]
